@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react'
-import about from '../assets/images/about.gif'
+import about from '../assets/images/about.png'
 import scamwatch from '../assets/svg/scamwatch.png'
 import GitHub from '../assets/svg/GitHub-logo.png'
 import forensic from '../assets/svg/forensic-focus-logo.png'
@@ -26,7 +26,7 @@ function Main() {
           <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content aos-init aos-animate" data-aos="fade-right" data-aos-delay="100">
             <h3>About us</h3>
             <p className="fst-italic">
-    At AICDF, we are committed to revolutionizing the landscape of cybersecurity and digital forensics. 
+    At Auswide Training Institute, we are committed to revolutionizing the landscape of cybersecurity and digital forensics. 
     Our mission is to empower individuals and organizations to navigate the digital world securely and confidently.
   </p>
   <ul>
@@ -700,7 +700,7 @@ function Main() {
         <div className="info-box  mb-4">
           <i className="bx bx-envelope"></i>
           <h3>Email Us</h3>
-          <p>info@aicdf.com</p>
+          <p>info@ati.aus</p>
         </div>
       </div>
 

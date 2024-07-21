@@ -60,7 +60,7 @@ function Footer() {
 
       <div className="container">
         <div className="copyright">
-          © Copyright <strong><span>AICDF</span></strong>. All Rights Reserved
+          © Copyright <strong><span>Auswide Training Institute</span></strong>. All Rights Reserved
         </div>
         <div className="credits">
           {/* Add credits section here */}

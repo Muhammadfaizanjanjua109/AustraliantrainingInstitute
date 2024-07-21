@@ -14,8 +14,8 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "AICDF",
-  description: "AICDF",
+  title: "Auswide Training Institute",
+  description: "Auswide Training Institute",
 };
 
 export default function RootLayout({ children }) {

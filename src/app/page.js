@@ -13,8 +13,9 @@ export default function Home() {
 
           <div className="row justify-content-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="150">
             <div className="col-xl-6 col-lg-8">
-              <h1>Ausde Training Institute<span>.</span></h1>
-              <h2>Empowering Cyber Resilience Together</h2>
+              <h1>Auswide Institute </h1>
+              {/* <h1>Training</h1> */}
+              <h2>Empowering Cyber Resilience Through Training</h2>
             </div>
           </div>
 

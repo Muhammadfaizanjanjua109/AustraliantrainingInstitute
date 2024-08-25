@@ -26,20 +26,22 @@ function Main() {
           <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content aos-init aos-animate" data-aos="fade-right" data-aos-delay="100">
             <h3>About us</h3>
             <p className="fst-italic">
-    At Auswide Training Institute, we are committed to revolutionizing the landscape of cybersecurity and digital forensics. 
-    Our mission is to empower individuals and organizations to navigate the digital world securely and confidently.
+            At the Auswide Training Institute, we specialise in providing comprehensive training programs designed to equip individuals with the skills and knowledge needed to thrive in the dynamic field of cyber security. Whether you are a beginner looking to enter the industry or a seasoned professional aiming to enhance your expertise, our institute offers a range of courses tailored to meet your needs.
   </p>
-  <ul>
-    <li><i className="ri-check-double-line"></i> Experienced professionals with a passion for safeguarding digital assets.</li>
-    <li><i className="ri-check-double-line"></i> Dedicated to providing comprehensive training programs tailored to diverse needs.</li>
-    <li><i className="ri-check-double-line"></i> Committed to delivering consultancy services that address the unique challenges of each client.</li>
-    <li><i className="ri-check-double-line"></i> Leading the way in research and innovation to stay ahead of emerging cyber threats.</li>
-  </ul>
+
+  <h3>Our Mission</h3>
   <p>
-    With a focus on excellence and a drive for continuous improvement, we strive to create a safer digital environment 
-    for all. Our team combines expertise, creativity, and dedication to offer powerful solutions that make a difference. 
-    Partner with us on your journey to digital security and resilience.
+  Our mission is to empower our trainees with the practical skills and theoretical knowledge necessary to protect and defend against cyber threats. We are committed to fostering a community of cyber security professionals who are not only proficient in their field but also dedicated to the ethical practice of cyber security.
   </p>
+
+  <h3>Who Can Benefit?</h3>
+
+  <ul>
+    <li><i className="ri-check-double-line"></i>Individuals seeking to start a career in cyber security.</li>
+    <li><i className="ri-check-double-line"></i>IT professionals looking to specialize in cyber security.</li>
+    <li><i className="ri-check-double-line"></i>Managers and executives responsible for cyber security within their organizations.</li>
+    <li><i className="ri-check-double-line"></i>Anyone interested in understanding cyber security risks and defences</li>
+  </ul>
           </div>
         </div>
 
@@ -76,26 +78,31 @@ function Main() {
   <div className="row">
     <div className="image col-lg-6 aos-init aos-animate bg-customFaizan"   data-aos="fade-right"></div>
     <div className="col-lg-6 aos-init aos-animate" data-aos="fade-left" data-aos-delay="100">
-    <h3 className='services_heading text-center'>Our Serives</h3>
+    <h3 className='services_heading text-center'>Why Choose Us?</h3>
       <div className="icon-box mt-5 mt-lg-0 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="150">
         <i className="bx bx-receipt"></i>
-        <h4>Consultancy Services</h4>
-        <p>Expert guidance and tailored solutions to enhance your cybersecurity posture and mitigate digital risks.</p>
+        <h4>Expert Instructors</h4>
+        <p>Learn from industry experts with years of experience in cyber security.</p>
       </div>
       <div className="icon-box mt-5 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="150">
         <i className="bx bx-cube-alt"></i>
-        <h4>Research and Innovation</h4>
-        <p>Pioneering advancements in cybersecurity through cutting-edge research and innovative methodologies.</p>
+        <h4>Hands-on Training</h4>
+        <p>Gain practical experience through labs, simulations, and real-world scenarios.</p>
       </div>
       <div className="icon-box mt-5 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="150">
         <i className="bx bx-images"></i>
-        <h4>Digital Forensics Investigations</h4>
-        <p>Uncovering digital evidence crucial for investigations and legal proceedings using state-of-the-art techniques.</p>
+        <h4>Comprehensive Curriculum</h4>
+        <p>Stay updated with cutting-edge topics covering all aspects of cybersecurity.</p>
       </div>
       <div className="icon-box mt-5 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="150">
         <i className="bx bx-shield"></i>
-        <h4>Training Programs</h4>
-        <p>Comprehensive courses designed to equip individuals and organizations with essential cybersecurity skills and knowledge.</p>
+        <h4>Flexible Learning Options</h4>
+        <p>Choose from in-person classes, online courses, and customised corporate training solutions</p>
+      </div>
+      <div className="icon-box mt-5 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="150">
+        <i className="bx bx-shield"></i>
+        <h4>Career Support</h4>
+        <p>Access career services, job placement assistance, and networking opportunities</p>
       </div>
     </div>
   </div>
@@ -172,24 +179,48 @@ function Main() {
       <div className="col-lg-4 col-md-6">
         <div className="icon-box" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={()=>setState('cyberSecurityModal')}>
           <div className="icon"><i className="bx bxl-dribbble"></i></div>
-          <h4><a  data-toggle="modal" data-target="#cyberSecurityModal">Cyber Security Awareness</a></h4>
-          <p>Equip yourself with essential knowledge and skills to stay safe in the digital world.</p>
+          <h4><a  data-toggle="modal" data-target="#cyberSecurityModal">Introduction to Cyber Security</a></h4>
+          <p>An entry-level course covering basic concepts and principles.</p>
         </div>
       </div>
 
       <div className="col-lg-4 col-md-6">
         <div className="icon-box" onClick={()=>setState('safeCyberChildrenModal')}>
           <div className="icon"><i className="bx bx-file"></i></div>
-          <h4><a  data-toggle="modal" data-target="#safeCyberChildrenModal ">Safe Cyber for Children</a></h4>
-          <p>Empower children with the tools and knowledge to navigate cyberspace securely.</p>
+          <h4><a  data-toggle="modal" data-target="#safeCyberChildrenModal ">Ethical Hacking and Penetration Testing</a></h4>
+          <p>Learn to identify vulnerabilities and secure systems proactively.</p>
         </div>
       </div>
 
       <div className="col-lg-4 col-md-6">
         <div className="icon-box" onClick={()=>setState('safeCyberElderlyModal')}>
           <div className="icon"><i className="bx bx-tachometer"></i></div>
-          <h4><a data-toggle="modal" data-target="#safeCyberElderlyModal">Safe Cyber Practices for Elderly</a></h4>
-          <p>Provide elderly individuals with practical strategies for staying safe online.</p>
+          <h4><a data-toggle="modal" data-target="#safeCyberElderlyModal">Network Security</a></h4>
+          <p>Understand the principles and practices of securing network infrastructure.</p>
+        </div>
+      </div>
+
+      <div className="col-lg-4 col-md-6">
+        <div className="icon-box" onClick={()=>setState('safeCyberElderlyModal')}>
+          <div className="icon"><i className="bx bx-tachometer"></i></div>
+          <h4><a data-toggle="modal" data-target="#safeCyberElderlyModal">Incident Response and Forensics</a></h4>
+          <p>Develop skills to respond to and investigate cyber security incidents.</p>
+        </div>
+      </div>
+
+
+      <div className="col-lg-4 col-md-6">
+        <div className="icon-box" onClick={()=>setState('safeCyberElderlyModal')}>
+          <div className="icon"><i className="bx bx-tachometer"></i></div>
+          <h4><a data-toggle="modal" data-target="#safeCyberElderlyModal">Cyber Security Management</a></h4>
+          <p>Explore strategies for managing and mitigating cyber risks in organizations.</p>
+        </div>
+      </div>
+      <div className="col-lg-4 col-md-6">
+        <div className="icon-box" onClick={()=>setState('safeCyberElderlyModal')}>
+          <div className="icon"><i className="bx bx-tachometer"></i></div>
+          <h4><a data-toggle="modal" data-target="#safeCyberElderlyModal">Advanced Threat Intelligence</a></h4>
+          <p>Dive deep into threat intelligence analysis and cyber security operations.</p>
         </div>
       </div>
     </div>
@@ -292,8 +323,8 @@ function Main() {
   <div className="container aos-init aos-animate" data-aos="zoom-in">
 
     <div className="text-center">
-      <h3>Empower Yourself Today</h3>
-      <p>Take the first step towards a safer digital future. Join us and equip yourself with the knowledge and skills needed to navigate the digital landscape securely.</p>
+      <h3>Get Started Today</h3>
+      <p>Ready to take your cyber security skills to the next level? Feel free to contact us for more information or to schedule a consultation. Join Auswide Training Institute and become part of a community dedicated to shaping the future of cyber security.</p>
       <a className="cta-btn" href="#cources">Explore Our Courses</a>
     </div>
 
@@ -700,7 +731,7 @@ function Main() {
         <div className="info-box  mb-4">
           <i className="bx bx-envelope"></i>
           <h3>Email Us</h3>
-          <p>info@ati.aus</p>
+          <p>info@auswide.au</p>
         </div>
       </div>
 
